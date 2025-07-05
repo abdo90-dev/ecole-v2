@@ -1,6 +1,6 @@
 # 🎓 Plateforme de Gestion des Étudiants – ESTIAM (ecole-v2)
 
-Bienvenue dans `ecole-v2`, une application web moderne, sécurisée et responsive développée lors du **Hackathon ESTIAM (juillet 2025)**. Cette plateforme vise à centraliser la gestion des étudiants pour les établissements d’enseignement supérieur.
+Bienvenue sur `ecole-v2`, une application web moderne, sécurisée et responsive développée lors du **Hackathon ESTIAM (juillet 2025)**. Elle permet de centraliser la gestion des étudiants pour les établissements d’enseignement supérieur.
 
 🔗 Dépôt GitHub : [abdo90-dev/ecole-v2](https://github.com/abdo90-dev/ecole-v2)
 
@@ -8,37 +8,37 @@ Bienvenue dans `ecole-v2`, une application web moderne, sécurisée et responsiv
 
 ## 🚀 Fonctionnalités principales
 
-- ✅ Authentification sécurisée (Admins & Étudiants)
-- 🧑‍🎓 Gestion complète des étudiants (CRUD)
-- 🏫 Administration des filières
-- 📊 Tableau de bord statistique (effectifs, répartition, évolution)
+- 🔐 Authentification Firebase (Admins & Étudiants)
+- 🧑‍🎓 CRUD complet sur les étudiants
+- 🏫 Gestion des filières
+- 📊 Tableau de bord avec statistiques dynamiques (effectifs, répartition, évolution)
 - 🔎 Recherche instantanée
-- 📁 Export/Import des données
+- 📁 Import / Export de données
 
 ---
 
 ## 🛠️ Stack technique
 
-| Technologie    | Utilisation                                  |
-|----------------|----------------------------------------------|
-| **React + Vite**     | Frontend SPA performant                    |
-| **TypeScript**       | Typage fort pour fiabilité du code         |
-| **Tailwind CSS**     | Design moderne et responsive               |
-| **Supabase**         | Authentification et base de données        |
-| **npm, PostCSS**     | Gestion des dépendances et styles          |
-| **ESLint**           | Linting et standardisation du code         |
+| Technologie       | Utilisation                                |
+|-------------------|---------------------------------------------|
+| **React + Vite**  | Application web rapide et modulaire         |
+| **TypeScript**    | Sécurité et typage strict                   |
+| **Tailwind CSS**  | UI moderne, responsive et rapide à créer    |
+| **Firebase**      | Authentification + base de données (Firestore) |
+| **npm / PostCSS** | Gestion des dépendances et des styles       |
+| **ESLint**        | Linting et qualité du code                  |
 
 ---
 
-## 🧑‍💻 Installation & Lancement
+## ⚙️ Installation & Lancement
 
 ```bash
-# 1. Cloner le dépôt
+# Cloner le projet
 git clone https://github.com/abdo90-dev/ecole-v2.git
 cd ecole-v2
 
-# 2. Installer les dépendances
+# Installer les dépendances
 npm install
 
-# 3. Lancer le serveur de développement
+# Lancer le serveur de développement
 npm run dev
