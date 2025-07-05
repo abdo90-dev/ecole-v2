@@ -1,59 +1,44 @@
-# 🎓 Student Management Platform – Hackathon ESTIAM 2025
+# 🎓 Plateforme de Gestion des Étudiants – ESTIAM (ecole-v2)
 
-Une plateforme web moderne, sécurisée et responsive permettant la **gestion centralisée des étudiants** dans un établissement d'enseignement supérieur.
+Bienvenue dans `ecole-v2`, une application web moderne, sécurisée et responsive développée lors du **Hackathon ESTIAM (juillet 2025)**. Cette plateforme vise à centraliser la gestion des étudiants pour les établissements d’enseignement supérieur.
 
-## 🚀 Objectifs du projet
+🔗 Dépôt GitHub : [abdo90-dev/ecole-v2](https://github.com/abdo90-dev/ecole-v2)
 
-- Centraliser la gestion des profils étudiants, inscriptions, et filières
-- Offrir un tableau de bord statistique interactif en temps réel
-- Proposer une interface moderne, ergonomique et responsive
-- Mettre en place une authentification sécurisée avec rôles (admin / étudiant)
-- Faciliter les opérations de recherche, ajout, modification et suppression (CRUD)
+---
+
+## 🚀 Fonctionnalités principales
+
+- ✅ Authentification sécurisée (Admins & Étudiants)
+- 🧑‍🎓 Gestion complète des étudiants (CRUD)
+- 🏫 Administration des filières
+- 📊 Tableau de bord statistique (effectifs, répartition, évolution)
+- 🔎 Recherche instantanée
+- 📁 Export/Import des données
+
+---
 
 ## 🛠️ Stack technique
 
-| Composant       | Rôle                                              |
-|----------------|---------------------------------------------------|
-| React + Vite   | Interface utilisateur (SPA)                       |
-| TypeScript     | Robustesse du code                                |
-| Tailwind CSS   | Design responsive rapide                          |
-| Supabase       | Backend, authentification, base de données        |
-| ESLint         | Qualité du code                                   |
-| npm / PostCSS  | Gestion des dépendances et des styles             |
+| Technologie    | Utilisation                                  |
+|----------------|----------------------------------------------|
+| **React + Vite**     | Frontend SPA performant                    |
+| **TypeScript**       | Typage fort pour fiabilité du code         |
+| **Tailwind CSS**     | Design moderne et responsive               |
+| **Supabase**         | Authentification et base de données        |
+| **npm, PostCSS**     | Gestion des dépendances et styles          |
+| **ESLint**           | Linting et standardisation du code         |
 
-## 📐 Architecture du système
+---
 
-- **Frontend** : React + Tailwind CSS
-- **State Management** : Context API
-- **Backend** : Supabase (auth, DB) ou JSON local (pour prototypage)
-- **Sécurité** : Authentification JWT, gestion des rôles
-
-## 🔒 Fonctionnalités principales
-
-- ✅ Authentification sécurisée avec rôles
-- 🧑‍🎓 CRUD complet des étudiants
-- 🏫 Gestion des filières
-- 📊 Dashboard statistique (graphiques dynamiques)
-- 🔎 Recherche en temps réel
-- ⬇️ Export/Import des données
-- 📱 Design responsive compatible desktop / tablette / mobile
-
-## 🧪 Tests et Validation
-
-- ✅ Tests fonctionnels (CRUD, login, etc.)
-- 📱 Tests d’ergonomie (retours utilisateurs)
-- 🔐 Tests de sécurité (droits d’accès, sessions)
-- ⚡ Tests de performance (rapidité, charge)
-
-## ⚙️ Instructions d'installation
+## 🧑‍💻 Installation & Lancement
 
 ```bash
-# Clone le repo
-git clone https://github.com/ton-utilisateur/student-management-app.git
-cd student-management-app
+# 1. Cloner le dépôt
+git clone https://github.com/abdo90-dev/ecole-v2.git
+cd ecole-v2
 
-# Installe les dépendances
+# 2. Installer les dépendances
 npm install
 
-# Lancer le serveur de développement
+# 3. Lancer le serveur de développement
 npm run dev
