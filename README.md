@@ -106,18 +106,6 @@ ecole-v2/
 
 ---
 
-## 👨‍👩‍👧‍👦 Équipe projet (Hackathon ESTIAM 2025)
-
-- 👩‍💼 Douae Mtoul – Chef de projet
-- 👨‍💻 Chahine Abid – Dev React & logique
-- 🎨 Lamya Moubiiou – UI/UX Design
-- 🧑‍🔧 Mohamed Amine Nadim – Firebase / Architecture
-- 🧪 Rostom Mouaddeb – Tests fonctionnels
-- 🎤 Otmane Ben Slimane – Présentation
-- Et le reste de l’équipe Hackathon 🎉
-
----
-
 ## 📜 Licence
 
 Projet réalisé à des fins pédagogiques lors du Hackathon ESTIAM (Juillet 2025).  
