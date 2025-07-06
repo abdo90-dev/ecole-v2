@@ -42,3 +42,83 @@ npm install
 
 # Lancer le serveur de développement
 npm run dev
+```
+
+> 🔑 Crée un projet Firebase, active Firestore et l'authentification par e-mail/mot de passe.  
+> 📁 Ajoute un fichier `.env` avec les clés Firebase (voir `.env.example` si présent).
+
+---
+
+## 🔧 Configuration Firebase (`.env`)
+
+```env
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+---
+
+## 🔐 Comptes de test
+
+| Rôle        | Email                             | Mot de passe    |
+|-------------|-----------------------------------|-----------------|
+| **Admin**   | haddadiabdelhak64@gmail.com       | Callman1234     |
+| **Étudiant**| khalid.mokhtar@example.com        | Callman1234     |
+
+---
+
+## 📁 Structure du projet
+
+```
+ecole-v2/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/          # Firebase config & API calls
+│   └── utils/
+├── public/
+├── .env
+└── README.md
+```
+
+---
+
+## ✅ Tests et Validation
+
+- 🔄 Tests manuels fonctionnels (CRUD, login)
+- 🔐 Vérification des permissions selon les rôles (admin / étudiant)
+- 📱 Tests responsive sur desktop / tablette / mobile
+
+---
+
+## 📈 Idées d’amélioration
+
+- 📲 Version mobile avec React Native
+- 🔔 Notifications automatiques (inscription, maj de profil)
+- 📄 Export PDF / Excel des statistiques
+- 💬 Module de messagerie interne
+- 🗃️ Système de gestion documentaire (relevés de notes, attestations)
+- 🎛️ Tableau de bord personnalisable selon le rôle
+
+---
+
+## 👨‍👩‍👧‍👦 Équipe projet (Hackathon ESTIAM 2025)
+
+- 👩‍💼 Douae Mtoul – Chef de projet
+- 👨‍💻 Chahine Abid – Dev React & logique
+- 🎨 Lamya Moubiiou – UI/UX Design
+- 🧑‍🔧 Mohamed Amine Nadim – Firebase / Architecture
+- 🧪 Rostom Mouaddeb – Tests fonctionnels
+- 🎤 Otmane Ben Slimane – Présentation
+- Et le reste de l’équipe Hackathon 🎉
+
+---
+
+## 📜 Licence
+
+Projet réalisé à des fins pédagogiques lors du Hackathon ESTIAM (Juillet 2025).  
+Libre de réutilisation avec attribution.
